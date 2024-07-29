@@ -1,0 +1,50 @@
+.hm-pg {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.hero-section {
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0; 
+  color: white;
+  text-align: center;
+  min-height: calc(100vh - 2in); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  margin-top: 2rem;
+  width: 100%; 
+  max-width: 1200px; 
+}
+
+.search-bar .MuiTextField-root {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.search-bar button {
+  height: 56px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 14%;
+  border: none;
+  padding: 0 auto;
+  border-top-right-radius: 0px;
+}
+
+footer {
+  margin-top: auto; 
+}
