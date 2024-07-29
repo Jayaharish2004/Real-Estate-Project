@@ -13,13 +13,3 @@ This is a frontend of a real estate website with a good User Interface. The desi
 4. Run start command (`npm run start`)
 
 The application will start live on your local server.
-
-
-
-
-## Contributors 
-
-<a href = "https://github.com/Yana-Gupta/real-estate-frontend/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=Yana-Gupta/real-estate-frontend"/>
-</a>
-
