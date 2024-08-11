@@ -1,0 +1,120 @@
+// AdminDashboard.scss
+
+// Container
+.admin-dashboard-container {
+  padding: 40px;
+  background: #f8f9fa; // Updated background color
+}
+
+// Header
+.admin-dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.admin-dashboard-header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #007bff; // Primary color
+}
+
+.admin-dashboard-header p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #6c757d; // Secondary color
+}
+
+// Tables
+.table-container {
+  margin-bottom: 40px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  th {
+    background-color: #007bff; // Primary color
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  td {
+    padding: 15px;
+    border-top: 1px solid #dee2e6; // Border color
+    color: #212529; // Text color
+  }
+
+  .actions {
+    display: flex;
+    gap: 10px;
+    
+    button {
+      background-color: #17a2b8; // Info color
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 16px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: darken(#17a2b8, 10%);
+      }
+    }
+  }
+}
+
+// Chart
+.chart-container {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Dialog
+.dialog {
+  .MuiDialogTitle-root {
+    background-color: #007bff; // Primary color
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .MuiDialogContent-root {
+    padding: 20px;
+  }
+
+  .MuiDialogActions-root {
+    padding: 10px;
+    justify-content: flex-end;
+  }
+}
+
+// Snackbar
+.snackbar {
+  background-color: #17a2b8; // Info color
+  color: #fff;
+  font-weight: bold;
+}
+
+// Buttons
+button {
+  background-color: #007bff; // Primary color
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken(#007bff, 10%);
+  }
+}

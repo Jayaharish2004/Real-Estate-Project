@@ -1,0 +1,36 @@
+/* SellerLogin.scss */
+body {
+    //background-image: url('./Seller.jpg') !important; /* Ensure this path is correct */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    height: 100% !important;
+    margin: 0 !important;
+}
+  
+.seller-login-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+    position: relative !important; /* Ensure positioning context for the home button */
+}
+  
+.login-form {
+    padding: 2rem !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important;
+    background-color: rgba(255, 255, 255, 0.8) !important; /* Initial transparency */
+    transition: background-color 0.3s ease !important; /* Smooth transition */
+}
+  
+.login-form:hover {
+    background-color: rgba(255, 255, 255, 0.9) !important; /* Less transparent on hover */
+}
+  
+.home-button {
+    position: fixed !important; /* Fixed positioning to stay at the top-left corner */
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 10 !important; /* Ensure button is above other elements */
+}
